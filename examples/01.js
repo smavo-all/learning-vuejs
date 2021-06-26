@@ -8,9 +8,17 @@ const app = new Vue({
             {nombre: 'Amarillo', numero: true},
             {nombre: 'Azul', numero: false}
         ],
+        nuevoColor: '',
         lists: [ // Array
             'Sergio Villagomez',
             'Alexander Mc Gregor'
         ]
+    },  
+    methods: {
+        agregarColor (){
+            this.colores.push({
+                nombre: this.nuevoColor, numero: true
+            })
+        }
     }
 })
