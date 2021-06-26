@@ -3,10 +3,10 @@ const app = new Vue({
     data: {
         message: 'Hello World',
         colores: [ //Objeto
-            {nombre: 'Rojo', numero: 1},
-            {nombre: 'Verde', numero: 2},
-            {nombre: 'Amarillo', numero: 3},
-            {nombre: 'Azul', numero: 4}
+            {nombre: 'Rojo', numero: true},
+            {nombre: 'Verde', numero: true},
+            {nombre: 'Amarillo', numero: true},
+            {nombre: 'Azul', numero: false}
         ],
         lists: [ // Array
             'Sergio Villagomez',
