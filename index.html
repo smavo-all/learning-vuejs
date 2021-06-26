@@ -9,6 +9,9 @@
 <body>
     <div id="app">
         <h2>{{ message }}</h2>
+        <ul>
+            <li v-for="color of colores">{{color.nombre}}</li>
+        </ul>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
